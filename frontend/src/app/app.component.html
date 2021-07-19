@@ -1,0 +1,11 @@
+
+<div style="text-align: center;">
+  <span>
+    <input type="text" [(ngModel)]="userIdValue"/> 
+    <label style="margin-left: 8px;">Enter User ID</label> 
+  </span>
+  <div style="margin-top: 15px;">
+    <button (click)="callUpdateEndpoint(userIdValue)">Update</button>
+  </div>
+</div>
+
